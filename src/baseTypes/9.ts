@@ -6,7 +6,10 @@ type Text = {
   likes: number;
   accounts: string[];
   status: "open" | "close";
-  details?: object;
+  details?: {
+    createAt: Date;
+    updateAt: Date;
+  };
 };
 const page1: Text = {
   title: "The awesome page",
