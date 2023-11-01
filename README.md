@@ -59,7 +59,7 @@ function calc(num1, num2) {
   return num1 + num2;
 }
 
-function customError() {
+function customError(): {
   throw new Error('Error');
 }
 ```
